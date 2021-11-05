@@ -1,0 +1,35 @@
+/*========== Variables Dark theme ==========*/
+body.dark-theme{
+  --first-color-send: #000000;
+  --title-color: #ffffff;
+  --text-color: #ffffff;
+  --body-color: #000000;
+  --container-color: #000000;
+}
+
+/*========== Button Dark/Light ==========*/
+.change-theme{
+  position: absolute;
+  right: 1.5rem;
+  top: 2.2rem;
+  display: flex;
+  color: var(--title-color);
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+/*========== CLASS CSS ==========*/
+
+.bd-container{
+  max-width: 968px;
+  width: calc(100% - 3rem);
+  margin-left: 10px;
+  margin-right: var(--mb-3);
+}
+@media screen and (min-width: 768px){
+ 
+
+
+
+}
+
